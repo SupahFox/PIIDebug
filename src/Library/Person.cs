@@ -42,7 +42,7 @@ namespace Ucu.Poo.Persons
         {
             get
             {
-                return $"{this.Name}{this.FamilyName}";
+                return $"{this.Name} {this.FamilyName}";
             }
         }
 
@@ -78,7 +78,7 @@ namespace Ucu.Poo.Persons
         {
             if (person != null)
             {
-                Console.WriteLine($"Hola, {person.Name}, mi nombre es {this.Name}");
+                Console.Write($"Hola, {person.Name}, mi nombre es {this.Name}");
             }
         }
 
